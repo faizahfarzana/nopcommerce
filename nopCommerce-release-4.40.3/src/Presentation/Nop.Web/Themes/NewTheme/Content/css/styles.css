@@ -8215,17 +8215,6 @@ pre {
     clear: both;
   }
 
-/*  .home-page .product-grid .title {
-    border-bottom: 3px solid #4ab2f1;
-    background-color: #ddd;
-    font-size: 30px;
-    font-weight: normal;
-    margin: 0 0 15px;
-    padding: 15px;
-    float: left;
-    width: 100%;
-  }*/
-
   .product-grid .title {
     margin: 0 0 30px;
     border-bottom: 1px solid #ddd;
