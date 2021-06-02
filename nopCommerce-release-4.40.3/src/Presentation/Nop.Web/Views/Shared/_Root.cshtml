@@ -18,11 +18,12 @@
         @await Component.InvokeAsync("TopMenu")
     </div>
     <div class="master-wrapper-content">
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageTop })
         @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ContentBefore })
 
         @if (IsSectionDefined("Breadcrumb"))
         {
-            @RenderSection("Breadcrumb") 
+            @RenderSection("Breadcrumb")
         }
         <div class="master-column-wrapper">
             @RenderBody()
