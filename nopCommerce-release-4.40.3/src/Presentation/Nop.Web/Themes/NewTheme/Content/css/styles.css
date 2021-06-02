@@ -5634,7 +5634,7 @@ label, label + * {
     margin: 0 20px 20px 20px;
     font-size: 12px;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     float: right;
     border-radius: 5px;
   }
@@ -8554,7 +8554,7 @@ pre {
     padding: 10px 20px;
     font-size: 12px;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: lowercase;
     border-radius: 5px;
     float: right;
   }
