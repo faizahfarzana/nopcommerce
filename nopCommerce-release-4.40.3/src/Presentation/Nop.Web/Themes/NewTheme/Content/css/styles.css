@@ -7966,6 +7966,7 @@ pre {
     border-bottom: 1px solid #ddd;
     padding: 25px 0;
     text-align: center;
+    background-color: black;
   }
 
   .menu-toggle,
