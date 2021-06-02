@@ -1477,6 +1477,17 @@ label, label + * {
   text-align: left;
 }
 
+.home-page-polls .poll {
+  margin: 10px 0 15px;
+  overflow: hidden;
+  font-size: 15px;
+  color: #444;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
 .home-page-polls .title {
   border-bottom: 3px solid #4ab2f1;
   color: #444;
@@ -1493,17 +1504,15 @@ label, label + * {
   font-weight: normal;
 }
 
-.home-page-polls .poll-options,
-.poll-results {
-  margin: 10px 0 15px;
-  overflow: hidden;
-  font-size: 15px;
-  color: #444;
-  text-align: left;
-  padding: 10px 10px 10px 10px;
-  width: 100%;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
-}
+  .home-page-polls .poll strong {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: none;
+    background-color:transparent;
+  }
 
 .home-page-polls .buttons button {
   display: inline-block;
@@ -1522,28 +1531,9 @@ label, label + * {
   background-color: #248ece;
 }
 
-/*.home-page-polls .poll-block strong {
-  overflow: hidden;
-  text-align: left;
-  margin: 25px 0;
-  width: 100%;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
-}*/
-
 .home-page-polls li {
-/*  display: inline-block;*/
   margin: 10px;
 }
-
-/*.home-page-polls .poll strong {
-  display: block;
-  margin: 10px 0;
-  background-color: #f6f6f6;
-  padding: 10px 15px;
-  font-size: 15px;
-  font-weight: normal;
-  color: black;
-}*/
 
 /********** CATEGORY PAGE **********/
 
@@ -5469,7 +5459,7 @@ label, label + * {
 .blogpost-page .tags label {
   display: inline-block;
   margin: 0 3px 3px 0;
-  font-weight: bold;
+  font-weight: bold;.news-t
   color: #444;
 }
 
