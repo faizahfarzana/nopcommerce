@@ -8501,7 +8501,7 @@ pre {
 
   .news-list-homepage .news-item {
     float: left;
-    width: 31.33333%;
+    width: 100%;
     margin: 0 1% 30px;
   }
 
@@ -8516,7 +8516,7 @@ pre {
   }
 
   .news-list-homepage .news-head {
-    text-align: center;
+    text-align: left;
   }
 
   .news-list-homepage .news-body {
