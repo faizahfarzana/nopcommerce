@@ -1291,8 +1291,16 @@ label, label + * {
 .block {
   max-width: 600px; /*width limit in mobile*/
   min-height: 50px;
-  margin: auto;
+  overflow: hidden;
   text-align: left;
+  margin: auto;
+  margin: 10px 0 15px;
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+  border: 1px solid #bbb;
+  border-top: 5px solid #4ab2f1;
+  border-radius: 5px;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .block .title {
@@ -1307,7 +1315,7 @@ label, label + * {
 }
 
 .block .title strong {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .block .listbox {
@@ -1379,6 +1387,25 @@ label, label + * {
 .block .view-all a:hover,
 .block .view-all a:focus {
   text-decoration: underline;
+}
+
+.block-popular-tags .view-all {
+  margin: 10px 0 0;
+}
+
+  .block-popular-tags .view-all a {
+    display: inline-block;
+    border: none;
+    background-color: #4ab2f1;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+.block-popular-tags .view-all a:hover,
+.block-popular-tags .view-all a:focus {
+  background-color: #248ece;
 }
 
 .block .tags {
