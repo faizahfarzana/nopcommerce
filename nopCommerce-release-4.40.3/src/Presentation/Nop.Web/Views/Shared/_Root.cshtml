@@ -5,6 +5,15 @@
 @await Html.PartialAsync("_Notifications")
 @await Html.PartialAsync("_JavaScriptDisabledWarning")
 @await Html.PartialAsync("_OldInternetExplorerWarning")
+
+@{
+    bool homePage = false;
+    if (Url.ActionContext.RouteData.Values["controller"].ToString().Equals("home", StringComparison.InvariantCultureIgnoreCase) &&
+        Url.ActionContext.RouteData.Values["action"].ToString().Equals("index", StringComparison.InvariantCultureIgnoreCase))
+    {
+        homePage = true;
+    }
+}
 <div class="master-wrapper-page">
     @await Component.InvokeAsync("AdminHeaderLinks")
     @await Html.PartialAsync("_Header")
@@ -17,12 +26,16 @@
     <div class="header-menu">
         @await Component.InvokeAsync("TopMenu")
     </div>
+
     <div class="master-wrapper-content">
         @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ContentBefore })
-
+        @if (homePage)
+        {
+            @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageTop })
+        }
         @if (IsSectionDefined("Breadcrumb"))
         {
-            @RenderSection("Breadcrumb") 
+            @RenderSection("Breadcrumb")
         }
         <div class="master-column-wrapper">
             @RenderBody()
