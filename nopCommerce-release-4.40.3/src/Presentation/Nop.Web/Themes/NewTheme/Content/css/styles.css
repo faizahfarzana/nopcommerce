@@ -5473,7 +5473,8 @@ label, label + * {
   color: #4ab2f1;
 }
 
-.blog-posts .buttons .read-more {
+.blog-posts .buttons .read-more,
+.news-items .buttons .read-more {
   display: inline-block;
   border: none;
   background-color: #4ab2f1;
@@ -5481,7 +5482,6 @@ label, label + * {
   font-size: 12px;
   color: #fff;
   text-transform: uppercase;
-  float:right;
 }
 
 .blog-posts .buttons .read-more:hover,
@@ -8505,7 +8505,7 @@ pre {
     margin: 0 1% 30px;
   }
 
-  .news-items .buttons .read-more {
+  .news-list-homepage .buttons .read-more {
     display: inline-block;
     border: none;
     background-color: #4ab2f1;
@@ -8515,7 +8515,6 @@ pre {
     text-transform: uppercase;
     float: right;
   }
-
 
   .news-list-homepage .news-item:nth-child(3n+1) {
     clear: both;
