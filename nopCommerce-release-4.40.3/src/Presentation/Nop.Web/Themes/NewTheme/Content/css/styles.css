@@ -7985,7 +7985,7 @@ pre {
 
   .header-menu > ul > li {
     display: inline-block;
-    border-left: 1px solid #ddd;
+/*    border-left: 1px solid #ddd;*/
     padding: 0 15px;
     vertical-align: middle;
   }
