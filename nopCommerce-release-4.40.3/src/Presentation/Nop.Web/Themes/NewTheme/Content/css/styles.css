@@ -1501,7 +1501,7 @@ label, label + * {
 }
 
 .home-page-polls .title strong {
-  font-weight: normal;
+  font-weight: bold;
 }
 
   .home-page-polls .poll strong {
