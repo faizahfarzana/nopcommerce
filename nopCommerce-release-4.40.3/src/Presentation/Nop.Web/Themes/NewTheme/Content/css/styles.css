@@ -8505,17 +8505,6 @@ pre {
     margin: 0 1% 30px;
   }
 
-  .news-list-homepage .buttons .read-more {
-    display: inline-block;
-    border: none;
-    background-color: #4ab2f1;
-    padding: 10px 20px;
-    font-size: 12px;
-    color: #fff;
-    text-transform: uppercase;
-    float: right;
-  }
-
   .news-list-homepage .news-item:nth-child(3n+1) {
     clear: both;
   }
@@ -8532,6 +8521,31 @@ pre {
 
   .news-list-homepage .news-body {
     text-align: justify;
+  }
+
+  .news-list-homepage .news-title {
+    float: left;
+  }
+
+  .news-list-homepage .news-date {
+    font-style: normal;
+    background-color: transparent;
+    float: right;
+  }
+
+  .news-list-homepage .buttons .read-more {
+    display: inline-block;
+    border: none;
+    background-color: #4ab2f1;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+  }
+
+  .news-list-homepage .clear {
+    clear: both;
   }
 
 
