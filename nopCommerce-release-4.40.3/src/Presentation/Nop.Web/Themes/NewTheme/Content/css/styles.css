@@ -5612,14 +5612,15 @@ label, label + * {
   margin: 0 0 75px;
 }
 
-.news-list-homepage .title {
-  margin: 0 0 -1px;
-  border-bottom: 1px solid #ddd;
-  padding: 0 0 15px;
-  font-size: 30px;
-  font-weight: normal;
-  color: #444;
-}
+  .news-list-homepage .title {
+    margin: 0 0 -1px;
+    background-color: #ddd;
+    border-bottom: 3px solid #4ab2f1;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #444;
+  }
 
 .news-list-homepage .title strong {
   font-weight: normal;
@@ -5630,11 +5631,12 @@ label, label + * {
     border: none;
     background-color: #4ab2f1;
     padding: 10px 20px;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
     font-size: 12px;
     color: #fff;
     text-transform: uppercase;
     float: right;
+    border-radius: 5px;
   }
 
 .news-list-homepage .view-all a {
@@ -8553,6 +8555,7 @@ pre {
     font-size: 12px;
     color: #fff;
     text-transform: uppercase;
+    border-radius: 5px;
     float: right;
   }
 
