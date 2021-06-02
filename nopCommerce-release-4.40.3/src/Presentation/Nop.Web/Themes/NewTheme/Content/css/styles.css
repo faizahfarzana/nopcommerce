@@ -1425,12 +1425,12 @@ label, label + * {
   font-size: 17px !important; /*setting base size*/
 }
 
-.block .tags li a,
-.product-tags-all-page li a {
-  float: left;
-  line-height: 30px;
-  color: #444;
-}
+  .block .tags li a,
+  .product-tags-all-page li a {
+    float: left;
+    line-height: 30px;
+    color: #4ab2f1;
+  }
 
 .block .tags li a:hover,
 .block .tags li a:focus,
