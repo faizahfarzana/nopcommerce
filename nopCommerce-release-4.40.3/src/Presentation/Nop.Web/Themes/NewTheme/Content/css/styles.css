@@ -7967,6 +7967,7 @@ pre {
     padding: 25px 0;
     text-align: center;
     background-color: black;
+    float: left;
   }
 
   .menu-toggle,
@@ -7987,7 +7988,7 @@ pre {
     display: inline-block;
 /*    border-left: 1px solid #ddd;*/
     padding: 0 15px;
-    vertical-align: middle;
+/*    vertical-align: middle;*/
   }
 
   .header-menu > ul > li:first-child {
