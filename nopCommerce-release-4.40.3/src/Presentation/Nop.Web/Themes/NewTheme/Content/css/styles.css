@@ -1865,7 +1865,7 @@ label, label + * {
 .sub-category-grid .title {
   text-align: center;
   font-size: 22px;
-  font-weight: normal;
+  font-weight: bold;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -6846,7 +6846,7 @@ pre {
 
 
   .item-box {
-    width: 49%;
+    width: 24%;
     margin: 0 0.5% 50px;
   }
 
@@ -7090,7 +7090,7 @@ pre {
   }
 
   .item-box {
-    width: 32.33333%;
+    width: 25%;
     margin: 0 0.5% 50px;
   }
 
