@@ -1486,6 +1486,7 @@ label, label + * {
     margin: 0 0 30px;
     padding: 15px;
     float: left;
+    width: 100%;
   }
 
 .home-page-polls .title strong {
