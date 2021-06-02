@@ -7965,7 +7965,7 @@ pre {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 25px 0;
-    text-align: center;
+/*    text-align: center;*/
     background-color: black;
   }
 
@@ -7996,7 +7996,7 @@ pre {
 
   .header-menu > ul > li > a {
     display: block;
-    padding: 5px 10px;
+    padding: 5px 0px;
     line-height: 20px;
     font-size: 17px; /*reset zeroing*/
     color: white;
