@@ -8215,6 +8215,36 @@ pre {
     clear: both;
   }
 
+  .home-page .product-grid .item-grid {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .home-page .product-grid .item-box {
+    width: 30%;
+    border: 1px solid #bbb;
+    padding: 15px 15px 0 15px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
+/*  .home-page .product-grid .item-box:nth-child(3n+1) {
+    clear: none;
+  }
+*/
+
+
+  .home-page .product-grid .item-box:nth-child(3n+1) {
+    clear: both;
+  }
+
+  .home-page .product-grid .item-box:only-child {
+    float: none;
+    width: auto;
+    margin: 0 0 30px;
+  }
+
 
   /*** PRODUCT PAGE ***/
 
