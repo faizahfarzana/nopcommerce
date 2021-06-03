@@ -1093,14 +1093,13 @@ label, label + * {
 
 
 .footer {
-  background-color: #eee;
+  background-color: #525252;
   text-align: center;
 }
 
 .footer-upper {
   width: 95%;
   margin: auto;
-  border-bottom: 1px solid #ddd;
   overflow: hidden;
   padding: 40px 0;
   font-size: 0;
@@ -1111,6 +1110,7 @@ label, label + * {
   margin: 1px auto;
   text-align: left;
   font-size: 14px; /*reset zeroing*/
+  color: #fff;
 }
 
 .footer-block .title {
@@ -1123,7 +1123,8 @@ label, label + * {
 }
 
 .footer-block .title strong {
-  font-weight: normal;
+  font-weight: bold;
+  color: #fff;
 }
 
 .footer-block .list {
@@ -1244,11 +1245,13 @@ label, label + * {
 }*/
 
 .footer-lower {
+  display:inline-block;
   width: 95%;
-  margin: auto;
   overflow: hidden;
   padding: 25px 0;
-  font-size: 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #333;
 }
 
 .footer-tax-shipping a {
@@ -1267,7 +1270,6 @@ label, label + * {
 
 .footer-powered-by a {
   font-weight: bold;
-  color: #4ab2f1;
 }
 
 .footer-powered-by a:hover,
@@ -8123,12 +8125,10 @@ pre {
   }
 
   .footer-info {
-    float: right;
     line-height: 32px;
   }
 
   .footer-powered-by {
-    float: left;
     margin: 0;
     line-height: 32px;
   }
@@ -8652,7 +8652,7 @@ pre {
   }
 
   .footer-lower {
-    width: 1200px;
+    width: 48%;
     padding: 25px 20px;
   }
 
