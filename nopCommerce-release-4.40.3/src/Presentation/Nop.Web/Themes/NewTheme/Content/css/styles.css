@@ -1289,12 +1289,19 @@ label, label + * {
 /*********** SIDE COLUMN ***********/
 
 
-
 .block {
   max-width: 600px; /*width limit in mobile*/
   min-height: 50px;
-  margin: auto;
+  overflow: hidden;
   text-align: left;
+  margin: auto;
+  margin: 10px 0 15px;
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+  border: 1px solid #bbb;
+  border-top: 5px solid #4ab2f1;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .block .title {
@@ -1309,7 +1316,7 @@ label, label + * {
 }
 
 .block .title strong {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .block .listbox {
@@ -1351,6 +1358,25 @@ label, label + * {
   color: #4ab2f1;
 }
 
+.block-manufacturer-navigation .list a:before {
+  content: none;
+}
+
+.block-category-navigation .list {
+  content: none;
+}
+
+  .block-category-navigation .list li {
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+  }
+
+.block-category-navigation .list a:before {
+  content: none;
+}
+
 .block a.product-picture {
   display: none;
 }
@@ -1383,6 +1409,25 @@ label, label + * {
   text-decoration: underline;
 }
 
+.block-popular-tags .view-all {
+  margin: 10px 0 0;
+}
+
+.block-popular-tags .view-all a {
+  display: inline-block;
+  border: none;
+  background-color: #4ab2f1;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.block-popular-tags .view-all a:hover,
+.block-popular-tags .view-all a:focus {
+  background-color: #248ece;
+}
+
 .block .tags {
   margin: 5px 0 10px;
 }
@@ -1400,12 +1445,12 @@ label, label + * {
   font-size: 17px !important; /*setting base size*/
 }
 
-.block .tags li a,
-.product-tags-all-page li a {
-  float: left;
-  line-height: 30px;
-  color: #444;
-}
+  .block .tags li a,
+  .product-tags-all-page li a {
+    float: left;
+    line-height: 30px;
+    color: #4ab2f1;
+  }
 
 .block .tags li a:hover,
 .block .tags li a:focus,
@@ -8159,10 +8204,10 @@ pre {
     font-weight: bold;
   }
 
-  .block .listbox {
-    display: block;
-    border-bottom: none;
-  }
+    .block .listbox {
+      display: block;
+      border-bottom: none;
+    }
 
   .block a.product-picture {
     display: inline-block;
