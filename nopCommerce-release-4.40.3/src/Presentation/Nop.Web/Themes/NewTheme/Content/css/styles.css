@@ -1100,7 +1100,6 @@ label, label + * {
 .footer-upper {
   width: 95%;
   margin: auto;
-  border-bottom: 1px solid #ddd;
   overflow: hidden;
   padding: 40px 0;
   font-size: 0;
@@ -1246,12 +1245,13 @@ label, label + * {
 }*/
 
 .footer-lower {
+  display:inline-block;
   width: 95%;
-  margin: 0 auto;
   overflow: hidden;
   padding: 25px 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
+  background-color: #333;
 }
 
 .footer-tax-shipping a {
@@ -8125,12 +8125,12 @@ pre {
   }
 
   .footer-info {
-/*    float: right;*/
+    display: inline-block;
+    vertical-align: middle;
     line-height: 32px;
   }
 
   .footer-powered-by {
-/*    float: left;*/
     margin: 0;
     line-height: 32px;
   }
@@ -8654,7 +8654,7 @@ pre {
   }
 
   .footer-lower {
-    width: 1200px;
+    width: 48%;
     padding: 25px 20px;
   }
 

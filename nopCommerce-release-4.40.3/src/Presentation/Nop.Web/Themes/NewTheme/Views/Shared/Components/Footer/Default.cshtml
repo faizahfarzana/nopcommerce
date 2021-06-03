@@ -116,6 +116,14 @@
     </div>
     <div class="footer-lower">
         <div class="footer-info">
+            @if (!Model.HidePoweredByNopCommerce)
+            {
+                <span class="footer-powered-by">
+                    @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
+                Please find more info at https://www.nopcommerce.com/nopcommerce-copyright-removal-key*@
+                    Powered by <a href="@(OfficialSite.Main)">nopCommerce BrainStation</a>
+                </span>
+            }
             <span class="footer-disclaimer">@T("Content.CopyrightNotice", DateTime.Now.Year, Model.StoreName)</span>
             @if (Model.DisplayTaxShippingInfoFooter)
             {
@@ -125,14 +133,6 @@
                 </span>
             }
         </div>
-        @if (!Model.HidePoweredByNopCommerce)
-        {
-            <div class="footer-powered-by">
-                @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
-                    Please find more info at https://www.nopcommerce.com/nopcommerce-copyright-removal-key*@
-                Powered by <a href="@(OfficialSite.Main)">nopCommerce</a>
-            </div>
-        }
         @await Component.InvokeAsync("StoreThemeSelector")
     </div>
     @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.Footer })
