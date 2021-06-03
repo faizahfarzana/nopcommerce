@@ -8232,10 +8232,33 @@ pre {
   }
 
   .home-page .product-grid .item-box {
+    text-align: center;
     width: 30%;
     border: 1px solid #bbb;
     padding: 15px 15px 0 15px;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .home-page .item-box .product-box-add-to-cart-button {
+    width: 60%;
+    background-color: #4ab2f1;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    text-transform: none;
+  }
+
+  .home-page .item-box .details {
+    padding: 0 0;
+  }
+
+  .home-page .item-box .add-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+
+  .home-page .item-box .actual-price {
+    font-weight: bold;
   }
 
   .home-page .product-grid .title {
