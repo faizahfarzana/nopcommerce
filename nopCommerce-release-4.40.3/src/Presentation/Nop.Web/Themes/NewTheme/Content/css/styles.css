@@ -1912,7 +1912,7 @@ label, label + * {
 .sub-category-grid .title {
   text-align: center;
   font-size: 22px;
-  font-weight: normal;
+  font-weight: bold;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -1931,6 +1931,14 @@ label, label + * {
 .home-page-category-grid .picture a:before,
 .sub-category-grid .picture a:before {
   padding-top: 65%;
+}
+
+.home-page-category-grid .item-box {
+  overflow: hidden;
+  width: 25%;
+  margin: 0 30px 30px 0;
+  padding: 15px 0 50px;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .products-container {
@@ -7137,7 +7145,7 @@ pre {
   }
 
   .item-box {
-    width: 32.33333%;
+    width: 32.3%;
     margin: 0 0.5% 50px;
   }
 
