@@ -8239,6 +8239,14 @@ pre {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
   }
 
+  .home-page .product-grid .item-box {
+    text-align: center;
+    width: 30%;
+    border: 1px solid #bbb;
+    padding: 15px 15px 0 15px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
   .home-page .item-box .product-box-add-to-cart-button {
     width: 60%;
     background-color: #4ab2f1;
@@ -8273,8 +8281,38 @@ pre {
     font-size: 30px;
   }
 
-  .home-page .product-grid .title strong{
+  .home-page .product-grid .title strong {
     font-weight: bold;
+    position: relative;
+  }
+
+  .home-page .product-grid.title-wrapper {
+    width: 100%;
+    position: relative;
+  }
+
+  .arrow-position {
+    width: 70px;
+    float: right;
+    text-align: right;
+  }
+
+  .arrows {
+    cursor: pointer;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+
+  .arrow-left {
+    border-right: 10px solid black;
+    margin-right: 10px;
+  }
+
+  .arrow-right {
+    border-left: 10px solid black;
   }
 
 
