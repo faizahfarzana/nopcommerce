@@ -1521,27 +1521,66 @@ label, label + * {
 }
 
 .home-page-polls {
-  text-align: center;
+  text-align: left;
+}
+
+.home-page-polls .poll {
+  margin: 10px 0 15px;
+  overflow: hidden;
+  font-size: 15px;
+  color: #444;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .home-page-polls .title {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 3px solid #4ab2f1;
   color: #444;
+  background-color: #ddd;
   font-size: 30px;
   font-weight: normal;
-  margin: 0 0 30px;
-  padding: 0 0 15px;
+  margin: 0 0 15px;
+  padding: 15px;
+  float: left;
+  width: 100%;
 }
 
 .home-page-polls .title strong {
-  font-weight: normal;
+  font-weight: bold;
+}
+
+  .home-page-polls .poll strong {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: none;
+    background-color:transparent;
+  }
+
+.home-page-polls .buttons button {
+  display: inline-block;
+  border: none;
+  background-color: #4ab2f1;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 5px;
+  float: right;
+}
+
+.home-page-polls .buttons button:hover,
+.buttons button:focus {
+  background-color: #248ece;
 }
 
 .home-page-polls li {
-  display: inline-block;
   margin: 10px;
 }
-
 
 /********** CATEGORY PAGE **********/
 
