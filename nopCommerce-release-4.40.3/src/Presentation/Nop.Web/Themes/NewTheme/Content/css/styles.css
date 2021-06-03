@@ -1093,7 +1093,7 @@ label, label + * {
 
 
 .footer {
-  background-color: #eee;
+  background-color: #525252;
   text-align: center;
 }
 
@@ -1111,6 +1111,7 @@ label, label + * {
   margin: 1px auto;
   text-align: left;
   font-size: 14px; /*reset zeroing*/
+  color: #fff;
 }
 
 .footer-block .title {
@@ -1123,7 +1124,8 @@ label, label + * {
 }
 
 .footer-block .title strong {
-  font-weight: normal;
+  font-weight: bold;
+  color: #fff;
 }
 
 .footer-block .list {
@@ -1245,10 +1247,11 @@ label, label + * {
 
 .footer-lower {
   width: 95%;
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
   padding: 25px 0;
   font-size: 12px;
+  color: #fff;
 }
 
 .footer-tax-shipping a {
@@ -1267,7 +1270,6 @@ label, label + * {
 
 .footer-powered-by a {
   font-weight: bold;
-  color: #4ab2f1;
 }
 
 .footer-powered-by a:hover,
@@ -8123,12 +8125,12 @@ pre {
   }
 
   .footer-info {
-    float: right;
+/*    float: right;*/
     line-height: 32px;
   }
 
   .footer-powered-by {
-    float: left;
+/*    float: left;*/
     margin: 0;
     line-height: 32px;
   }
