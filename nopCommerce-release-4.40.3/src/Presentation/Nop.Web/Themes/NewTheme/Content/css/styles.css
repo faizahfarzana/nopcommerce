@@ -1298,7 +1298,7 @@ label, label + * {
   font-size: 15px;
   border: 1px solid #bbb;
   border-top: 5px solid #4ab2f1;
-  border-radius: 5px;
+  border-radius: 6px;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -1357,6 +1357,21 @@ label, label + * {
 }
 
 .block-manufacturer-navigation .list a:before {
+  content: none;
+}
+
+.block-category-navigation .list {
+  content: none;
+}
+
+  .block-category-navigation .list li {
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+  }
+
+.block-category-navigation .list a:before {
   content: none;
 }
 
