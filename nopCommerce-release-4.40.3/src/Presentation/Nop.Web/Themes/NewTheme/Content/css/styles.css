@@ -1955,7 +1955,7 @@ label, label + * {
   margin: 0 0 30px;
   border-bottom: 1px solid #ddd;
   padding: 0 0 15px;
-  font-size: 30px;
+  font-size: 300px;
   font-weight: normal;
   color: #444;
 }
@@ -8258,6 +8258,41 @@ pre {
   .product-details-page .product-grid .item-box:nth-child(4n+1),
   .shopping-cart-page .product-grid .item-box:nth-child(4n+1) {
     clear: both;
+  }
+
+  .product-grid .title {
+    margin: 0 0 30px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 15px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #444;
+  }
+
+  .home-page .product-grid .item-grid {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .home-page .product-grid .item-box {
+    width: 30%;
+    border: 1px solid #bbb;
+    padding: 15px 15px 0 15px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .home-page .product-grid .title {
+    margin: 0 0 20px;
+    background-color: #ddd;
+    border-bottom: 3px solid #4ab2f1;
+    padding: 15px;
+    font-size: 30px;
+  }
+
+  .home-page .product-grid .title strong{
+    font-weight: bold;
   }
 
 
