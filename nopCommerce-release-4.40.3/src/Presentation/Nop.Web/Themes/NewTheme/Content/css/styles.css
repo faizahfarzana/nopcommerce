@@ -8257,6 +8257,10 @@ pre {
     padding: 20px;
   }
 
+  .home-page .item-box .buttons {
+    text-align: center;
+  }
+
   .home-page .item-box .actual-price {
     font-weight: bold;
   }
