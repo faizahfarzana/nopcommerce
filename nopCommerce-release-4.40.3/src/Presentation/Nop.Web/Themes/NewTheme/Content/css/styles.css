@@ -8065,11 +8065,12 @@ pre {
     position: relative;
     z-index: 5;
     width: 980px;
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 25px 0;
-    text-align: center;
+/*    text-align: center;*/
+    background-color: black;
   }
 
   .menu-toggle,
@@ -8088,9 +8089,9 @@ pre {
 
   .header-menu > ul > li {
     display: inline-block;
-    border-left: 1px solid #ddd;
+/*    border-left: 1px solid #ddd;*/
     padding: 0 15px;
-    vertical-align: middle;
+/*    vertical-align: middle;*/
   }
 
   .header-menu > ul > li:first-child {
@@ -8099,10 +8100,10 @@ pre {
 
   .header-menu > ul > li > a {
     display: block;
-    padding: 5px 10px;
+    padding: 5px 0px;
     line-height: 20px;
     font-size: 17px; /*reset zeroing*/
-    color: #555;
+    color: white;
     cursor: pointer;
   }
 
@@ -8158,6 +8159,21 @@ pre {
     left: 100% !important;
   }
 
+  .header-menu .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .header-menu .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
 
   /*** FOOTER ***/
 
